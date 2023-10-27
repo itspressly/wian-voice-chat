@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wians voice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <div class="content">
+        <div class="ball"><div class="the-ball">
+            <p>AI Wian</p>
+        </div>
+        <dv class="the-ball">
+            <p>AI Wian</p>
+        </div>
+    </div>
+    <div class="top">
+    <button id="intro">Hello</button>
+    <button id="Myname">My names pressly</button>
+    <button id="robo">Nice to meet you too AI wian!!</button>
+    <button id="day"> I'm fine AI wian thanks for asking</button>
+    <button id="intro1"> Thank you AI wian</button>
+</div>
+</div>
+
+
+
+
+
+    <script>
+        let play = document.getElementById("intro");
+        function playvoice (){
+            let audio = new Audio("PTT-20231026-WA0001.opus");
+            audio.play()
+        }
+        play.addEventListener("click" , playvoice)
+
+
+        let play1 = document.getElementById("Myname");
+        function playvoice1 (){
+            let audio1 = new Audio("PTT-20231026-WA0007.opus");
+            audio1.play()
+        }
+        play1.addEventListener("click" , playvoice1)
+
+
+        
+        let play2 = document.getElementById("robo");
+        function playvoice2 (){
+            let audio2 = new Audio("PTT-20231026-WA0005.opus");
+            audio2.play()
+        }
+        play2.addEventListener("click" , playvoice2)
+
+        
+        let play3 = document.getElementById("day");
+        function playvoice3 (){
+            let audio3 = new Audio("PTT-20231026-WA0006.opus");
+            audio3.play()
+        }
+        play3.addEventListener("click" , playvoice3)
+
+
+        let play4 = document.getElementById("intro1");
+        function playvoice4 (){
+            let audio4 = new Audio("PTT-20231026-WA0001.opus");
+            audio4.play()
+        }
+        play4.addEventListener("click" , playvoice4)
+    </script>
+</body>
+</html>
